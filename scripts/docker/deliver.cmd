@@ -26,4 +26,4 @@ ssh root@49.12.229.158 ^
 @rem -d run in background
 @rem -p 9000:9000 - assign port 9000 to host 9000
 @rem --name spring-boot-tutorial-aj3 - assign name to container
-@rem --rm remove when container is stopped (only if --restart is disabled)
+@rem --rm remove container when it is stopped (only if --restart is disabled)
