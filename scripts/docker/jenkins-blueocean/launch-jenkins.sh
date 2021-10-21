@@ -1,6 +1,6 @@
 # https://www.jenkins.io/doc/book/installing/docker/#on-macos-and-linux
 
-
+docker network create jenkins
 
 docker run --name jenkins-docker --rm --detach \
   --privileged --network jenkins --network-alias docker \

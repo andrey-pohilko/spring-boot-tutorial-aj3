@@ -28,5 +28,5 @@ cp target/${NAME}-${VERSION}.jar /var/lib/spring-boot-tutorial-aj3
 cd /var/lib/spring-boot-tutorial-aj3
 docker build -t anoxis/spring-boot-tutorial-aj3-image .
 
-docker run --restart unless-stopped -d -p 9000:9000 ^
+docker run --restart unless-stopped -d -p 9000:9000 --env-file esdp-demo-env.txt ^
     --name spring-boot-tutorial-aj3 anoxis/spring-boot-tutorial-aj3-image
