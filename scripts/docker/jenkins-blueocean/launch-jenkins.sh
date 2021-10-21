@@ -1,5 +1,7 @@
 # https://www.jenkins.io/doc/book/installing/docker/#on-macos-and-linux
 
+
+
 docker run --name jenkins-docker --rm --detach \
   --privileged --network jenkins --network-alias docker \
   --env DOCKER_TLS_CERTDIR=/certs \
