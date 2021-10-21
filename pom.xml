@@ -14,7 +14,7 @@
 	<name>spring-boot-tutorial-aj3</name>
 	<description>Demo project for Spring Boot - AJ3</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>16</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
